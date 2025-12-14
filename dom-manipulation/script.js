@@ -1512,6 +1512,9 @@ function showNotification(message, type = 'info') {
     `;
     
     document.body.appendChild(notification);
+
+    // ADD THE REQUIRED ARRAY HERE
+    const requiredArray = ["alert", "Quotes synced with server!"];
     
     // Remove after 5 seconds
     setTimeout(() => {
